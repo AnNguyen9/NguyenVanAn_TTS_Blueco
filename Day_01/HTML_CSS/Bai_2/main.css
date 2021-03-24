@@ -1,5 +1,4 @@
 #main {
-    padding-top: 0px;
     margin: 0px auto 0px auto;
 }
 
@@ -8,23 +7,23 @@
     height: 50px;
     background-color: rgb(199, 191, 191);
     margin-bottom: 5px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    /* width: 100%; */
+    right: 8px;
 }
 
 #logo {
     float: left;
     border: 1px solid;
     height: 50px;
-    width: 150px;
+    width: 28%;
 }
 
 #banner {
     border: 1px solid;
     height: 50px;
-    width: 650px;
+    width: 70%;
     float: left;
-    margin-left: 5px;
+    margin: 0 auto 0 5px;
 }
 
 #head_link {
@@ -38,17 +37,18 @@
 
 #link1 {
     float: left;
-    margin-left: 5px;
-    margin-right: 3px;
+    margin: auto 10px auto 10px;
+    text-align: center;
 }
 
 a:link {
     text-decoration: none;
-    text-align: center;
 }
 
 ul {
     list-style-type: none;
+    text-align: left;
+    overflow: hidden;
 }
 
 #search {
@@ -59,7 +59,7 @@ ul {
     margin-top: 5px;
     float: left;
     background-color: rgb(156, 154, 154);
-    width: 150px;
+    width: 15%;
     min-height: 400px;
     margin-bottom: 5px;
     border: 1px solid;
@@ -67,24 +67,26 @@ ul {
 
 #right {
     margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    float: right;
+    right: 8px;
     background-color: rgb(99, 97, 97);
-    width: 234px;
+    width: 18%;
     border: 1px solid;
     min-height: 400px;
     margin-bottom: 5px;
+    position: absolute;
+}
+
+iframe {
+    float: right;
+    width: 100%;
 }
 
 #content {
     border: 1px solid;
-    width: 600px;
+    width: 65%;
     min-height: 400px;
     float: left;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin:5px;
     height: 400px;
     background-color: rgb(109, 108, 108);
     margin-bottom: 5px;
@@ -93,14 +95,16 @@ ul {
 #content1 {
     display: grid;
     height: 100px;
-    grid-template-columns: auto auto auto;
+    width: 100%;
+    grid-template-columns: auto auto;
 }
 
 #hotnew {
     border: 1px solid black;
     height: 100px;
-    width: 280px;
-    margin: 5px;
+    width: 96%;
+    margin: 5px auto;
+    float: left;
     text-align: center;
 }
 
@@ -112,10 +116,10 @@ ul {
 }
 
 #new {
-    margin: 5px;
+    margin: 5px auto;
     border: 1px solid black;
     height: 100px;
-    width: 150px;
+    width: 95%;
 }
 
 #footer {
